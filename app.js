@@ -38,4 +38,19 @@ function sum(a,b) { //eslint-disable-line
             //console.log(summarrelements);
             return summarrelements;
             }
+            function multiplyArray( test) { //eslint-disable-line
+                var mularr=1;
+                var mularrelements=[];
+                for (var i = 0; i < test.length; i++) {
+                mularr*=test[i];
+                //sumarr.push(test[i]);
+                // console.log(sumarr);
+                }
+                mularrelements.push(mularr);
+                var data= 'The numbers '+ test[0] + ','+test[1]+ ','+ test[2]+ ' have a product of ' + mularr + '.';
+                mularrelements.push(data);
+                //console.log(mularrelements);
+                return mularrelements;
+                }
+                
             
